@@ -60,9 +60,7 @@ if(gameState === 3){
   form.checkbox3.hide();
   form.location.hide();
   form.submit.hide();
-  text("Thanks for posting the query!", 350,400)
-  text("The complaint has been lodged to the concerned department.",300,450);
-  text("You will recieve regular status updates on your registered mobile number.",200,500);
+  text("Thanks for posting the query!", 300,400)
 }
 //myCheckedEvent();
 }
@@ -73,4 +71,4 @@ if(gameState === 3){
   } else {
     console.log('Unchecking!');
   }
-} */
+} */ 
